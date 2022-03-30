@@ -7,12 +7,12 @@ const AddFriend = () => {
             <h2>Add Friend</h2>
             <form>
                 <div>
-                <label for="name-container">Friend Name </label>
+                <label htmlFor="name-container">Friend Name </label>
                 <input id="name"/>
                 </div>
 
                 <div>
-                <label for="email-container">Friend Email </label>
+                <label htmlFor="email-container">Friend Email </label>
                 <input type="email" id="email"/>
                 </div>
 
@@ -25,4 +25,4 @@ const AddFriend = () => {
   
   }
 
-export default AddFriend
+export default AddFriend;
